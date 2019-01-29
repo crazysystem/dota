@@ -1,6 +1,6 @@
 FS = {}
 FS.optionEnable = Menu.AddOptionBool({ "TEST","Fail Ult"}, "Enable", false)
-FS.optionKey = Menu.AddKeyOption({"TEST","Fail Switch"}, "Force Cast Key", Enum.ButtonCode.KEY_T)
+FS.optionKey = Menu.AddKeyOption({"TEST","Fail Ult"}, "Force Cast Key", Enum.ButtonCode.KEY_T)
 
 FS.abilityRadius = {
 						-- HERO NAME            ABILITY NAME     RADIUS  ABILITY INDEX     NOTARGET
