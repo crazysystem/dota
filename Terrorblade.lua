@@ -1,13 +1,13 @@
 local Terrorblade = {}
 
-Terrorblade.option = Menu.AddOptionBool({"VAIO", "Terrorblade"}, "Terrorblade", false)
-Terrorblade.optionTarget = Menu.AddOptionSlider({"VAIO", "Terrorblade"}, "Target Radius", 200, 1000, 500)
-Terrorblade.optionComboKey = Menu.AddKeyOption({"VAIO", "Terrorblade"}, "Combo key", Enum.ButtonCode.BUTTON_CODE_NONE)
-Terrorblade.optionDiffusal  = Menu.AddOptionBool({"VAIO", "Terrorblade", "Items"}, "Diffusal", false)
-Terrorblade.optionManta  = Menu.AddOptionBool({"VAIO", "Terrorblade", "Items"}, "Manta", false)
-Terrorblade.optionBkb  = Menu.AddOptionBool({"VAIO", "Terrorblade", "Items"}, "Bkb", false)
-Terrorblade.optionAutoUlt = Menu.AddOptionBool({"VAIO", "Terrorblade"}, "Auto ultimate", false)
-Terrorblade.optionUltSlider = Menu.AddOptionSlider({"VAIO", "Terrorblade"}, "HP threshold", 10 ,50, 30)
+Terrorblade.option = Menu.AddOptionBool({"TEST", "Terrorblade"}, "Terrorblade", false)
+Terrorblade.optionTarget = Menu.AddOptionSlider({"TEST", "Terrorblade"}, "Target Radius", 200, 1000, 500)
+Terrorblade.optionComboKey = Menu.AddKeyOption({"TEST", "Terrorblade"}, "Combo key", Enum.ButtonCode.BUTTON_CODE_NONE)
+Terrorblade.optionDiffusal  = Menu.AddOptionBool({"TEST", "Terrorblade", "Items"}, "Diffusal", false)
+Terrorblade.optionManta  = Menu.AddOptionBool({"TEST", "Terrorblade", "Items"}, "Manta", false)
+Terrorblade.optionBkb  = Menu.AddOptionBool({"TEST", "Terrorblade", "Items"}, "Bkb", false)
+Terrorblade.optionAutoUlt = Menu.AddOptionBool({"TEST", "Terrorblade"}, "Auto ultimate", false)
+Terrorblade.optionUltSlider = Menu.AddOptionSlider({"TEST", "Terrorblade"}, "HP threshold", 10 ,50, 30)
 
 function Terrorblade.OnUpdate()
   if not Menu.IsEnabled(Terrorblade.option) then return end
